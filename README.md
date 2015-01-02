@@ -18,4 +18,5 @@ There are plenty of places where this application will fail if AJAX calls, SQL, 
 Todo -
 * AJAX error handling
 * PHP error handling
+* Sanitize input fields
 
