@@ -10,7 +10,7 @@
 
     <script>
         $( document ).ready(function() {
-            setup();
+            refreshDisplay();
         });
     </script>
 
@@ -20,27 +20,14 @@
 
         <div id="contentWrapper">
             <div id="messages">
-                <table class="table" id="messageList"></table>
+
+                <div class="panel panel-default">
+                    <div class="panel-body" id="activeMessage"></div>
+                </div>
+
             </div>
+
         </div>
-
-
-        <!-- Message Modal -->
-        <div class="modal fade" id="deleteMessageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Delete Message</h4>
-              </div>
-              <div class="modal-body" id="deleteMessageModalBody"></div>
-              <div class="modal-footer">
-                <a type="button" class="btn btn-primary" id="btnConfirmDeleteMessage">Delete</a>
-                <button type="button" class="btn btn-warning" data-dismiss="modal" id="btnCancelMessageDeleteModal">Cancel</button>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
 
     </body>
 </html>
