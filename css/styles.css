@@ -1,11 +1,27 @@
+#body{
+	background-color: #00FF0D;
+}
+
 #contentWrapper{
-   width: 980px ;
-  margin-left: auto ;
-  margin-right: auto ;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 10px
+	
+}
+
+.panel{
+	color: white;
+	border: 0;
+	margin-bottom: 20px;
+	background-color: black;
+	box-shadow: 0 1px 1px rgba(0,0,0,0);	
 }
 
 #messages{
-    margin: 10px;
+    margin-left: 25px;
+    font-size: -webkit-xxx-large;
 }
 
 .active{
