@@ -7,20 +7,25 @@
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
-	bottom: 10px
+	bottom: 0px
 	
 }
 
 .panel{
 	color: white;
 	border: 0;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	background-color: black;
+	border-radius: 0px;
 	box-shadow: 0 1px 1px rgba(0,0,0,0);	
 }
 
+.panel-body{
+	margin-left: 10px;
+}
+
 #messages{
-    margin-left: 25px;
+    margin-left: 0px;
     font-size: -webkit-xxx-large;
 }
 
